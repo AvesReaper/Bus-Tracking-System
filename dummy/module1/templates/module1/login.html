@@ -1,0 +1,35 @@
+{% extends 'module1/layout1.html' %}
+{% block content %}
+
+    <div class="right-box">
+        <form class="form" action="{% url 'login_view' %}" method="POST">
+
+            {% csrf_token %}
+
+            <div class="form-element">
+                <p class="form-text">Please fill the details</p>
+            </div>
+
+            <div class="form-element">
+                <input type="tel" name="username" class="form-control" placeholder="Enter your number">
+            </div>
+
+            <div class="form-element">
+                <input type="password" name="password" class="form-control" placeholder="Enter your password">
+            </div>
+
+            {% if message %}
+                <p class="error">{{ message }}</p>
+            {% endif %}
+
+            <div class="form-element">
+                <button class="btn submit-btn" type="submit">Login</button>
+            </div>
+
+            <div class="form-element">
+                <a class="help-links" href="{% url 'register_view' %}">Don't have an account?</a>
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

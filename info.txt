@@ -1,0 +1,17 @@
+manage.py = lets us run command line commands
+
+test_pro :
+    __init__.py = empty python package
+    settings.py = comes with a lot of useful settings (DB,security etc)
+    urls.py     = adding urls for our sights
+    wsgi.py     = python web app comms with the server
+    asgi.py     = 
+
+
+
+manage.py COMMANDS :
+
+    startapp - to create a new webapp
+                SYNTAX : python manage.py startapp <name_of app>
+    
+    

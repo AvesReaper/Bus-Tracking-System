@@ -1,0 +1,23 @@
+/* .header{
+    display: flex;
+    gap:10px;
+    margin-left: 75%;
+}
+
+.but{
+    border: none;
+    height: 30px;
+    width:80px;
+} */
+
+.lab{
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 180px;
+}
+
+.field{
+    margin:auto;
+    width:50%;
+    margin-top: 50%;
+}

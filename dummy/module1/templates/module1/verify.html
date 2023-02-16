@@ -1,0 +1,30 @@
+{% extends 'module1/layout1.html' %}
+{% block content %}
+
+    <div class="right-box">
+        <form class="form" action="{% url 'verify' %}" method="POST">
+            {% csrf_token %}
+            <div class="form-element">
+                <p class="form-text">Please fill the details</p>
+            </div>
+
+            <div class="form-element">
+                <input type="tel" name="phone_number" class="form-control" placeholder="Enter your number">
+            </div>
+
+            <div class="form-element">
+                <input type="number" name="otp1" class="form-control" placeholder="Enter your OTP">
+            </div>
+            
+            {% if message %}
+                <p class="error">{{ message }}</p>
+            {% endif %}
+
+
+            <div class="form-element">
+                <button class="btn submit-btn" type="submit">Next</button>
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

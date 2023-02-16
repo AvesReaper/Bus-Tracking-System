@@ -1,0 +1,113 @@
+  .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/WhatsAppImage2022-11-10at11.37.06.jpeg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 797px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 210px;
+  margin: 255px 0 0 570px;
+}
+
+.u-section-1 .u-input-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-input-2 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-btn-1 {
+  letter-spacing: 1px;
+  border-style: none;
+  text-transform: uppercase;
+  background-image: none;
+  font-size: 1.125rem;
+  font-family: Alata;
+  font-weight: normal;
+  padding: 10px 58px 11px 56px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: Alata;
+  background-image: none;
+  margin: -67px 14px 0 auto;
+}
+
+.u-section-1 .u-image-1 {
+  width: 393px;
+  height: 393px;
+  background-image: url("images/Untitled_Artwork6-2.png");
+  background-position: 50% 50%;
+  --animation-custom_in-scale: 1;
+  margin: -253px auto 60px 73px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 657px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 470px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 503px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 250px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 377px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 184px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+    margin-left: 0;
+  }
+}

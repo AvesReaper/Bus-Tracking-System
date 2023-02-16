@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_53980cb88759ebe7e1a00b713abaf900 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_53980cb88759ebe7e1a00b713abaf900" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_53980cb88759ebe7e1a00b713abaf900 = L.map(
+                "map_53980cb88759ebe7e1a00b713abaf900",
+                {
+                    center: [12.8996, 80.2209],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_476deb43c4697e4df87223c3e6775cec = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_53980cb88759ebe7e1a00b713abaf900);
+        
+    
+            var marker_51afec4f354dbeee61cabd4489a1102f = L.marker(
+                [12.8996, 80.2209],
+                {}
+            ).addTo(map_53980cb88759ebe7e1a00b713abaf900);
+        
+    
+        var popup_7fff6d25cfe7c6366329a888861968c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a031fb476ea087d9d67ce96cb8a5522d = $(`<div id="html_a031fb476ea087d9d67ce96cb8a5522d" style="width: 100.0%; height: 100.0%;">{'status': 'success', 'country': 'India', 'countryCode': 'IN', 'region': 'TN', 'regionName': 'Tamil Nadu', 'city': 'Chennai', 'zip': '600002', 'lat': 12.8996, 'lon': 80.2209, 'timezone': 'Asia/Kolkata', 'isp': 'ACT Fibernet', 'org': 'Beam Telecom Pvt Ltd', 'as': 'AS24309 Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA', 'query': '49.204.138.214'}</div>`)[0];
+                popup_7fff6d25cfe7c6366329a888861968c5.setContent(html_a031fb476ea087d9d67ce96cb8a5522d);
+            
+        
+
+        marker_51afec4f354dbeee61cabd4489a1102f.bindPopup(popup_7fff6d25cfe7c6366329a888861968c5)
+        ;
+
+        
+    
+</script>
+</html>

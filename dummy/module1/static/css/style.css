@@ -1,0 +1,130 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 85, 107);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(110, 140, 160);
+  }
+
+  body {
+    background-image: url("../images/bg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+  .error{
+    color: black;
+    background-color: rgb(255, 138, 138);
+    width: 90%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .main-container{
+    display: flex;
+}
+
+.left-box, .right-box{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.right-box, .left-box{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img{
+    width: 80%;
+    margin-top: 4rem;
+}
+
+.form-element{
+    width: 100%;
+}
+
+.right-box{
+    padding-top: 9rem;
+}
+
+.form-control{
+    padding-inline:1rem;
+    padding-block:1rem;
+    width: 100%;
+    background-color: rgba(255,255,255,0.7);
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding-inline:1.5rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.btn:hover{
+    cursor:pointer;
+}
+.submit-btn{
+    background-color:rgb(37, 85, 107);
+    color: white;
+}
+.submit-btn:hover{
+    background-color:rgb(80, 120, 138);
+
+}
+
+.help-links{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.help-links:hover{
+    cursor: pointer;
+}
+
+.welcome{
+    margin: 2rem;
+    background-color: rgb(37, 85, 107);
+    padding: 2rem;
+    color: white;
+    border-radius:10px;
+}
+.white{
+    color: white;
+}
+
+.form-text{
+    color: rgb(37, 85, 107);
+    font-size: 1.5rem;
+}
